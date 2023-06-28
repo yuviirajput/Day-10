@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js break & continue statment</title>
+</head>
+<body>
+    <h1>JAVASCRIPT BREAK AND CONTINUE STATMENT</h1>
+    <p>A loop with a <u>continue</u> statement.</p>
+
+<p>A loop which will skip the step where i = 10.</p>
+
+<p id="yuvii"></p>
+
+<script>
+let text = "";
+for (let i = 1; i < 15; i++) {
+  if (i === 10) { continue; }
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("yuvii").innerHTML = text;
+</script>
+    
+</body>
+</html>
